@@ -1,0 +1,30 @@
+# Démarrage de la base de données #
+
+Démarrer MongoDB en lançant mongod.exe
+
+
+# Lancement du scraping #
+
+Allez dans le répertoire du projet et écrivez la commande suivante : "python project.py"
+Une fenêtre chrome devrait s'ouvrir et faire des déplacements de façon autonome.
+Dès que le processus est fini, le programme devrait vous écrire le nombre de jeux stockés dans la base de données avec ce scraping.
+
+
+# Utilisation de l'application Flask #
+
+Toujours dans le répertoire du projet, faites la commande : "python run.py" 
+Le script vous demandera d'aller à une adresse web (http://127.0.0.1:2745/ normalement)
+
+Au démarrage, vous vous retrouverez sur la page d'accueil vous demandant de vous connecter.
+Cependant, vous devez d'abord vous inscrire : il vous suffit alors de cliquer sur le bouton "S'inscrire".
+Vous obtiendrez alors un formulaire qui vous permettra de vous inscrire.
+L'inscription faite, vous serez redirigés vers la page principale qui vous permettra d'interroger la base de données.
+La fonctionnalité principale est un formulaire à remplir qui vous permet d'obtenir les jeux correspondants à votre recherche.
+Plusieurs champs peuvent être renseignés simultanément.
+De base, le tableau de la page montrera l'ensemble des jeux par ordre chronologique.
+
+Vous pouvez aussi vous déconnecter de votre compte actuel en cliquant sur le bouton "Déconnexion", ce qui vous fera revenir sur la page d'accueil.
+
+En cas d'erreur lors de l'inscription ou de la connexion, une page d'erreur s'affichera et vous indiquera le problème rencontré.
+
+

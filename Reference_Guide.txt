@@ -1,0 +1,34 @@
+# Composition du projet #
+
+# Script de scraping et de stockage dans la base de données #
+
+project.py : fichier permettant de faire le scraping du site Steam en utilisant la librairie "selenium" 
+et de stocker ces données directement dans la base de données NoSQL MongoDB.
+
+
+# Scripts Python de l'application Flask #
+
+run.py : fichier de lancement de l'application Flask.
+
+views.py : fichier gérant la configuration de l'application avec la base de données ainsi que les différentes routes.
+Elle comporte des fonctions utilisées par diverses routes.
+
+forms.py : fichier regroupant les formulaires utilisés par l'application.
+
+
+# Fichiers HTML / Templates dans le dossier 'templates' #
+
+main.html : template pour la route principale après connexion (fonctionnalité principale)
+
+index.html : template pour la connexion de l'utilisateur
+
+register.html : template pour l'inscription de l'utilisateur
+
+error_login.html : template pour les problèmes de connexion
+
+error_register.html : template
+
+
+# Fichier CSS dans le dossier 'static' #
+
+main.css : fichier css simple de mise en forme
