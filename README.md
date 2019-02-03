@@ -15,7 +15,7 @@ Nous avons cherché à récupérer des données sur le site "https://store.steam
 
 ## Installation
 
-N'ayant pas fait de Docker actuellement, il est nécessaire d'installer les éléments suivants : 
+N'ayant pas fait de Docker actuellement, il est nécessaire d'installer les éléments suivants :  
 -- MongoDB (installation windows + commande md \data\db "https://docs.mongodb.com/v3.2/tutorial/install-mongodb-on-windows/" 
 OU installation linux "https://docs.mongodb.com/v3.2/administration/install-on-linux/")  
 -- PyMongo (python -m easy_install pymongo OU pip install pymongo)  
